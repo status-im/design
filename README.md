@@ -11,4 +11,4 @@ Feel free to email us at [support@status.im](mailto:support@status.im) or better
 ## License
 
 Licensed under the [Mozilla Public License v2.0](https://github.com/status-im/status-react/blob/develop/LICENSE.md)
- 
+
