@@ -1,9 +1,9 @@
 ### User Story
-[comment]: # (Please [TASK] and/or [GOAL] with appropriate context)
+[comment]: # (Please add [TASK] and/or [GOAL] with appropriate context)
 As a user, I want to [TASK] so that [GOAL].
 
 ### Issue Description
-[comment]: # (Categories for types of error that was observed)
+[comment]: # (Select or add categories for types of error that was observed)
 Issue Type: <Interaction | Disoverability | Text | Omission | Dropoff | Misunderstanding>
 
 [comment]: # (Describe what you observed happen.)
@@ -13,13 +13,13 @@ Observed behavior: ...
 Cause: ...
 
 ### Solution / Suggestion for improvement
-[comment]: # (Please summarise the solution and provide a task list on what needs to be fixed.)
+[comment]: # (Summarise the solution and provide a task list on what needs to be fixed.)
 Summary: 
 - [ ] ...
 - [ ] ...
 
 ### Study reference / ID
-[comment]: # (Please link to any reference in Gdocs, video, etc.)
+[comment]: # (Link to any reference in GDocs, video, etc.)
 Study ref: ...
 
 ### Additional Information (optional)
