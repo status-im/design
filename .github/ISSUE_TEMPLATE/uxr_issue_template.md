@@ -25,5 +25,5 @@ As a user, I want to [TASK] so that [GOAL].
 ### Additional Information (optional)
 [comment]: # (Please do your best to fill this out.)
 * Status version: ...
-* Operating System: <Android|iOS>
+* Operating System: <Android | iOS>
 
