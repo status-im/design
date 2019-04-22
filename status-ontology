@@ -1,0 +1,697 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#group-name"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#rational"
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#ens-name"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#rational"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#ens-name"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#rational"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#Alice"
+    }, {
+      "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#Bob"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#random-name"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#rational"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#group-name"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#rational"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#random-name"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#rational"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#wallet-name"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#rational"
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#wallet-name"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#rational"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "keypair stored on Keycard"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#storagesecurity"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#Main_wallet"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "cold"
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#group-name"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#rational"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#wallet-name"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#rational"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/heste/ontologies/2019/2/untitled-ontology-2#1:1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#Chat"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#UserGroup"
+  } ]
+}, {
+  "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#Breakfast_club",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "_:genid1" ]
+}, {
+  "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#Chat",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#Groupchat",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#Chat"
+  } ]
+}, {
+  "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#Master_Keypair_(km)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Generated from 12 words.\nThe 12 (or 24) words generate the Root node Private key.\n[Root node Private key] should never be in memory."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#Recovery_phrase"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#StatusAccount"
+  } ]
+}, {
+  "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#Name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#Groupchat"
+  }, {
+    "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#Public"
+  }, {
+    "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#UserGroup"
+  }, {
+    "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#Original_1st_leaf"
+  }, {
+    "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#StatusAccount"
+  }, {
+    "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#km/1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#Number_of_users",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#UserGroup"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#Passionate_Critical_Killerwhale",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://www.uxenzo.com/~status/userandchatmanagement.owl#Random_name", "https://www.uxenzo.com/~status/userandchatmanagement.owl#Random_name01", "_:genid2" ],
+  "https://uxenzo.com/~status/userandchatmanagement.owl#contact_code" : [ {
+    "@value" : "0x043b97a268546adc80b3b8540da8acd86a87f116f63d188ef29c896c1b54c83b032bdda3b6186c93f018e4987e473a52f7be341347c0091fa492b9fa49c5ac62ff"
+  } ],
+  "https://uxenzo.com/~status/userandchatmanagement.owl#creates" : [ {
+    "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#Status-core-chat"
+  } ],
+  "https://uxenzo.com/~status/userandchatmanagement.owl#has" : [ {
+    "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#Trusted_users"
+  } ],
+  "https://uxenzo.com/~status/userandchatmanagement.owl#is_assigned_by" : [ {
+    "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#Wiry_Papayawhip_Mollies"
+  } ],
+  "https://uxenzo.com/~status/userandchatmanagement.owl#is_assigned_to" : [ {
+    "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#Trusted_users"
+  } ],
+  "https://uxenzo.com/~status/userandchatmanagement.owl#public_key" : [ {
+    "@value" : "0xC98C00e7c86af50D667bc15b1B7fDb5fD7f84DBD"
+  } ],
+  "https://uxenzo.com/~status/userandchatmanagement.owl#role" : [ {
+    "@value" : "assignee"
+  } ],
+  "https://uxenzo.com/~status/userandchatmanagement.owl#status" : [ {
+    "@value" : "not-assigned"
+  } ],
+  "https://www.uxenzo.com/~status/userandchatmanagement.owl#follows" : [ {
+    "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#Status-core"
+  } ],
+  "https://www.uxenzo.com/~status/userandchatmanagement.owl#owns" : [ {
+    "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#Main_wallet"
+  }, {
+    "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#alice.stateofus.eth"
+  } ]
+}, {
+  "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#Public",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#Chat"
+  } ]
+}, {
+  "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#Status-core-chat",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "_:genid3" ],
+  "https://uxenzo.com/~status/userandchatmanagement.owl#chat-name" : [ {
+    "@value" : ""
+  } ]
+}, {
+  "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#Trusted_users",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://uxenzo.com/~status/userandchatmanagement.owl#UserGroup" ]
+}, {
+  "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#UserGroup",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#Wiry_Papayawhip_Mollies",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://www.uxenzo.com/~status/userandchatmanagement.owl#Random_name", "https://www.uxenzo.com/~status/userandchatmanagement.owl#Random_name01", "_:genid4" ],
+  "https://uxenzo.com/~status/userandchatmanagement.owl#assigns" : [ {
+    "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#Passionate_Critical_Killerwhale"
+  } ],
+  "https://uxenzo.com/~status/userandchatmanagement.owl#assigns_to" : [ {
+    "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#Trusted_users"
+  } ],
+  "https://uxenzo.com/~status/userandchatmanagement.owl#contact_code" : [ {
+    "@value" : "0x045f63aeab1acb3c0bc54d3665a6423c128139f7b9b217c532fbe8a2d0dbb4c6b51f3dfe5519f43a2cd60e4c57243599146ceab56a651f68b2067e840a606d3266"
+  } ],
+  "https://uxenzo.com/~status/userandchatmanagement.owl#has" : [ {
+    "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#Trusted_users"
+  } ],
+  "https://uxenzo.com/~status/userandchatmanagement.owl#public_key" : [ {
+    "@value" : "0x8C4F71B3cF6a76dE2CC239a6fA84E1a80e589598"
+  } ],
+  "https://uxenzo.com/~status/userandchatmanagement.owl#role" : [ {
+    "@value" : "assigner"
+  } ],
+  "https://uxenzo.com/~status/userandchatmanagement.owl#status" : [ {
+    "@value" : "assigned"
+  } ],
+  "https://www.uxenzo.com/~status/userandchatmanagement.owl#owns" : [ {
+    "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#Chat_Wallet"
+  }, {
+    "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#Main_wallet"
+  }, {
+    "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#Trade_wallet"
+  }, {
+    "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#bob.stateofus.eth"
+  } ]
+}, {
+  "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#assigns",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#assigns_to",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#chat-name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#Groupchat"
+  }, {
+    "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#Public"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#Name"
+  } ]
+}, {
+  "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#contact_code",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#creates",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#UserGroup"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#ens-name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#Name"
+  } ]
+}, {
+  "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#group-name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#UserGroup"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#Name"
+  } ]
+}, {
+  "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#has",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#is_assigned_by",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#is_assigned_to",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#is_assigned_by"
+  } ]
+}, {
+  "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#private_key",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#Master_Keypair_(km)"
+  }, {
+    "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#Original_1st_leaf"
+  }, {
+    "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#km/1"
+  }, {
+    "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#km/2"
+  }, {
+    "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#km/3"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#public_key",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#Master_Keypair_(km)"
+  }, {
+    "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#Original_1st_leaf"
+  }, {
+    "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#km/1"
+  }, {
+    "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#km/2"
+  }, {
+    "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#km/3"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#random-name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#Original_1st_leaf"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#Name"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentProperty" : [ {
+    "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#username"
+  } ]
+}, {
+  "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#role",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Assigner or Assignee"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#User"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#status",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Assigned to Trusted users group by other user or not"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#User"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl/1.0.1"
+  } ]
+}, {
+  "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#Alice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://www.uxenzo.com/~status/userandchatmanagement.owl#User" ],
+  "https://uxenzo.com/~status/userandchatmanagement.owl#creates" : [ {
+    "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#StatusAccountAlice"
+  } ],
+  "https://www.uxenzo.com/~status/userandchatmanagement.owl#use" : [ {
+    "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#Passionate_Critical_Killerwhale"
+  } ]
+}, {
+  "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#Bob",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://www.uxenzo.com/~status/userandchatmanagement.owl#User" ],
+  "https://uxenzo.com/~status/userandchatmanagement.owl#creates" : [ {
+    "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#StatusAccountBob"
+  } ],
+  "https://www.uxenzo.com/~status/userandchatmanagement.owl#use" : [ {
+    "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#Wiry_Papayawhip_Mollies"
+  } ]
+}, {
+  "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#Chat_Wallet",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "_:genid5" ]
+}, {
+  "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#DApp",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#Main_wallet",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "_:genid6" ],
+  "https://uxenzo.com/~status/userandchatmanagement.owl#private_key" : [ {
+    "@value" : ""
+  } ],
+  "https://uxenzo.com/~status/userandchatmanagement.owl#public_key" : [ {
+    "@value" : ""
+  } ],
+  "https://www.uxenzo.com/~status/userandchatmanagement.owl#storagesecurity" : [ {
+    "@value" : "cold"
+  } ]
+}, {
+  "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#Master_Private_Key",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#Master_Keypair_(km)"
+  } ]
+}, {
+  "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#Master_Public_Key",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#Master_Keypair_(km)"
+  } ]
+}, {
+  "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#Original_1st_leaf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "First leaf\nHash and truncate the public key to generate an address"
+  }, {
+    "@value" : "To be deprecated end of Q2 2019"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#Master_Public_Key"
+  } ]
+}, {
+  "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#Private_Key",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#km/2"
+  } ]
+}, {
+  "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#Private_key",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#Original_1st_leaf"
+  } ]
+}, {
+  "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#Private_key01",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#km/1"
+  } ]
+}, {
+  "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#Public_Key",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#km/2"
+  } ]
+}, {
+  "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#Public_key",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#Original_1st_leaf"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#WhisperID"
+  } ]
+}, {
+  "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#Public_key01",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#km/1"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#Whisper_ID01"
+  } ]
+}, {
+  "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#Random_name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Not sure what it's based on"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#Public_key"
+  } ]
+}, {
+  "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#Random_name01",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#Public_key01"
+  } ]
+}, {
+  "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#Recovery_phrase",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#Status-core",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "_:genid8" ],
+  "https://uxenzo.com/~status/userandchatmanagement.owl#group-name" : [ {
+    "@value" : ""
+  } ]
+}, {
+  "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#StatusAccount",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#StatusAccountAlice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://www.uxenzo.com/~status/userandchatmanagement.owl#StatusAccount" ],
+  "https://uxenzo.com/~status/userandchatmanagement.owl#creates" : [ {
+    "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#Passionate_Critical_Killerwhale"
+  } ]
+}, {
+  "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#StatusAccountBob",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://www.uxenzo.com/~status/userandchatmanagement.owl#StatusAccount" ]
+}, {
+  "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#Trade_wallet",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "_:genid9" ]
+}, {
+  "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#User",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#Wallet_address",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#Public_key"
+  } ]
+}, {
+  "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#Wallet_address/3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#km/3"
+  } ]
+}, {
+  "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#Wallet_address02",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#Public_Key"
+  } ]
+}, {
+  "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#WhisperID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#Wallet_address"
+  } ]
+}, {
+  "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#Whisper_ID01",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "currently the case in 0.11.0"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#Public_key01"
+  } ]
+}, {
+  "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#alice.stateofus.eth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "_:genid10" ]
+}, {
+  "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#bob.stateofus.eth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "_:genid11" ]
+}, {
+  "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#follows",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#k",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#km/1"
+  } ]
+}, {
+  "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#km/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "First leaf\nHash and truncate the public key to generate an address"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#Master_Public_Key"
+  } ]
+}, {
+  "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#km/2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#Master_Public_Key"
+  } ]
+}, {
+  "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#km/3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#Master_Public_Key"
+  } ]
+}, {
+  "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#owns",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#request",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#storagesecurity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#Master_Keypair_(km)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#use",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#username",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#Master_Keypair_(km)"
+  }, {
+    "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#StatusAccount"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#Name"
+  } ]
+}, {
+  "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#wallet-name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#Master_Keypair_(km)"
+  }, {
+    "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#Original_1st_leaf"
+  }, {
+    "@id" : "https://www.uxenzo.com/~status/userandchatmanagement.owl#km/1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://uxenzo.com/~status/userandchatmanagement.owl#Name"
+  } ]
+} ]
