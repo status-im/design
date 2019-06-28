@@ -1,0 +1,15 @@
+# Migration requirements
+
+## UI requirements
+
+1. Inform user about V1 before any actions can be taken (right after splash screen)
+2. Give users the option to continue on Beta ('single key')
+3. Encourage users to start with 'multi-key' on V1
+4. Inform users who create a multi-key that they can still access their existing single key identity and funds.
+5. Inform users who create a multi-key that other users will not recognize them
+6. Inform users that new features will not be supported on single key identities and that other users may no longer recognize them
+7. Support users to transfer their funds from their legacy 'single key' to their V1 'multi-key'
+8. When user A sends a transaction to a contact in chat, ask them to verify that the address belongs to them
+9. Offer an easy way for users to select a 'multi-key' account on the same device to transfer their funds to
+10. Inform users who recover an account that they are provided with a Chat key and name
+11. Inform users to Register or Connect an existing ENS name to use it with their multikey
