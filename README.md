@@ -44,7 +44,34 @@ Design process is iterative and differs depending on the design ask. The  proces
 1. Designer reviews implementation; **Dev > Design**
 1. Design story is closed in pivotal after PR is merged or further UI changes are highly unlikely.
 
+## Brand/Marketing design
+### Needs and responsibilities
+Marketing team's design needs include items below, with responsible designer (Marketing or Product) added to each.
+* Product landing page > Product designer
+* Brandbook guided by product > Product designer
+* Dedicated audience or campaign landing page > Marketing designer
+* Social media assets > Marketing designer
+* Post/blog headers > Marketing designer
+* Occasional collatoral > Marketing designer
 
+Assumption is that product designers only work Product landing page and brandbook. Occassionally help is needed to produce other assets. Occassionally product designers enjoy providing other assets as a welcome distraction:) (e.g. t-shirt designs).
+
+
+### Way of working
+To ensure consistency between product and assets we discussed the following WOW:
+
+* Marketing team can always ask for assets, product designers can always say 'no'.
+* Production files (Figma) are shared so marketing and product design can get a feeling for eachother's style.
+* In case product designers are needed to provide assets (e.g. unavailability of marketing designer) marketing team provides the following requirements:
+    - What is the purpose of the asset?
+    - Where will it be used?
+    - What are required dimensions?
+    - What is the deadline?
+* Product design provides a basic brandbook for each product to guide style for marketing materials. E.g. [Teller brandbook](https://www.figma.com/file/MiSADkBUtEV8ytbOzgwMgo/Teller-Brand?node-id=83%3A2033) 
+    * Current [guidelines for Core](https://cdn.discordapp.com/attachments/633669891999793165/656505846498459656/Brand_Guidelines_1.pdf) need more detail (e.g. when and how wordmark and logo are (not) used and how to display app screens)
+* Upcoming marketing campaigns (required assets) are [here](https://boards.status.im/b/Xi9d3DNqeGKrnZsYr/v1-launch-comms-production-list).
+* When a marketing designer starts working on assets they consult brand book, provided by product design and ping in #design. 
+* Final assets are shared with relevant product designer to check for any updates in the meantime (esp. regarding screens in development).
 [Design review template](https://notes.status.im/vaBSUJ00RLG5lwtYzp9yPg) 
 
 [Design checklist](https://docs.google.com/document/d/1umbtgnFjcGWwEHBCILKgGqO5H3A72eXxZrmMmhskNzs/edit?usp=sharing)
