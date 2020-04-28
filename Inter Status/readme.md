@@ -8,8 +8,8 @@ For context, at Status we use Inter exclusively in our mobile apps. However by d
 
 Changed:
 - Slashed zero enabled by default
-- Uppercase i uses alternate design with horizontal slabs
-- Lowercase l uses an alternate design with curved tail
+- Uppercase i uses alternate design with horizontal slabs by default
+- Lowercase l uses an alternate design with curved tail by default
 - Disabled the contextual alternates rule where the x character would be substituted with multiply glyph whenever joined by two digits
 - Copyright glyph is replaced with the SNT token symbol :)
 
